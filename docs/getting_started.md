@@ -14,14 +14,20 @@ To activate the virtual environment:
 source venv/bin/activate
 ```
 
-To deactivate the virtual environment:
-
-```bash
-deactivate
-```
-
 ## Installing rbc and other packages
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Create a kernel to use Jupyter notebooks in your virtual environment
+
+```bash
+ipython kernel install --user --name=building_generator
+```
+
+## Deactivating the virtual environment
+
+```bash
+deactivate
 ```
